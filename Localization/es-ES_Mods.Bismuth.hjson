@@ -1115,7 +1115,7 @@ Items: {
 
 	ShellNecklace: {
 		DisplayName: Collar de Conchas
-		Tooltip: +1% de daño y probabilidad de golpe crítico al arrojar por cada 5 puntos de humedad
+		Tooltip: +1% de daño de lanzamiento y probabilidad de golpe crítico por cada 5 puntos de humedad
 	}
 
 	FuryOfWaters: {
@@ -1160,7 +1160,7 @@ Items: {
 				'''
 			RingOfOmnipotence3:
 				'''
-				+13% en todos los daños, +50 PV, +3 PV/seg, la reflexión de daño
+				+13% en todos los daños, +50 PV, +3 PV/s, la reflexión de daño
 				aumenta un 12%, la probabilidad de esquivar aumenta un 5%,
 				todas las probabilidades de crítico aumentan un 10%
 				'''
@@ -1342,7 +1342,7 @@ Items: {
 	}
 
 	SnakesFang: {
-		Tooltip: Aparece una serpiente cerca de ti después de infligir daño. Luchará por ti
+		Tooltip: Una serpiente aparece cerca de ti después de infligir daño. Luchará por ti
 		DisplayName: Colmillo de Serpiente
 		Item.AssassinDamage: daño de asesino
 	}
@@ -1350,9 +1350,9 @@ Items: {
 	TransmutationAmulet: {
 		Tooltip:
 			'''
-			La duración de los efectos de todas las pociones se incrementa en un 10%
+			La duración de los beneficios de todas las pociones aumenta un 10%
 			El tiempo de reutilización de las pociones de curación se reduce en 5 segundos
-			Recuperas un 10% de tu maná después de usar cualquier poción
+			Restauras el 10% de tu maná después de usar cualquier poción
 			'''
 		DisplayName: Amuleto de Transmutación
 	}
@@ -1365,7 +1365,7 @@ Items: {
 	NecromancersRobe: {
 		Tooltip:
 			'''
-			El daño de los súbditos se incrementa en un 12%.
+			El daño de los súbditos aumenta un 12%.
 			Aumenta tu número máximo de súbditos
 			'''
 		DisplayName: Túnica del Nigromante
@@ -1374,7 +1374,7 @@ Items: {
 	NecromancersHood: {
 		Tooltip:
 			'''
-			El daño de los súbditos se incrementa en un 10%.
+			El daño de los súbditos aumenta un 10%.
 			Aumenta tu número máximo de súbditos
 			'''
 		DisplayName: Capucha del Nigromante
@@ -1383,9 +1383,9 @@ Items: {
 	NecromancersRing: {
 		Tooltip:
 			'''
-			Aumenta en 1 el número máximo de súbditos y el daño de los súbditos en un 7%
-			Obtienes más maná máximo, regeneración de maná 
-			y daño de súbditos por cada lápida cercana.
+			Aumenta el número máximo de súbditos en 1 y el daño de los súbditos en un 7%
+			Obtienes más maná máximo, regeneración de maná y
+			daño de súbditos por cada lápida cercana.
 			'''
 		DisplayName: Anillo del Nigromante
 	}
@@ -1399,8 +1399,8 @@ Items: {
 		DisplayName: Escudo Orcish
 		Tooltip:
 			'''
-			Aumenta el daño de lanzamiento un 11%
-			Cuanta menos vida tengas, mayor será tu daño y crítico con lanzamientos
+			Daño de lanzamiento aumentado en un 11%
+			Cuanta menos vida tengas, mayor será tu daño de lanzamiento y crítico
 			'''
 	}
 
