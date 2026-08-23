@@ -635,12 +635,12 @@ Items: {
 	}
 
 	DwarvenBrokenArmor: {
-		DisplayName: Armadura Dwarven Destrozada
+		DisplayName: Armadura Élfica Destrozada
 		Tooltip: ""
 	}
 
 	DwarvenCoin: {
-		DisplayName: Moneda Dwarven
+		DisplayName: Moneda Élfica
 		Tooltip: Moneda para comerciar con el Herrero
 	}
 
@@ -691,7 +691,7 @@ Items: {
 
 	Glamdring: {
 		DisplayName: Glamdring
-		Tooltip: Inflige daño multiplicado a los goblins
+		Tooltip: Inflige daño multiplicado a los duendes
 	}
 
 	GreenKey: {
@@ -1115,7 +1115,7 @@ Items: {
 
 	ShellNecklace: {
 		DisplayName: Collar de Conchas
-		Tooltip: +1% de daño y probabilidad de golpe crítico al arrojar por cada 5 puntos de humedad
+		Tooltip: +1% de daño de lanzamiento y probabilidad de golpe crítico por cada 5 puntos de humedad
 	}
 
 	FuryOfWaters: {
@@ -1160,7 +1160,7 @@ Items: {
 				'''
 			RingOfOmnipotence3:
 				'''
-				+13% en todos los daños, +50 PV, +3 PV/seg, la reflexión de daño
+				+13% en todos los daños, +50 PV, +3 PV/s, la reflexión de daño
 				aumenta un 12%, la probabilidad de esquivar aumenta un 5%,
 				todas las probabilidades de crítico aumentan un 10%
 				'''
@@ -1342,7 +1342,7 @@ Items: {
 	}
 
 	SnakesFang: {
-		Tooltip: Aparece una serpiente cerca de ti después de infligir daño. Luchará por ti
+		Tooltip: Una serpiente aparece cerca de ti después de infligir daño. Luchará por ti
 		DisplayName: Colmillo de Serpiente
 		Item.AssassinDamage: daño de asesino
 	}
@@ -1350,9 +1350,9 @@ Items: {
 	TransmutationAmulet: {
 		Tooltip:
 			'''
-			La duración de los efectos de todas las pociones se incrementa en un 10%
+			La duración de los beneficios de todas las pociones aumenta un 10%
 			El tiempo de reutilización de las pociones de curación se reduce en 5 segundos
-			Recuperas un 10% de tu maná después de usar cualquier poción
+			Restauras el 10% de tu maná después de usar cualquier poción
 			'''
 		DisplayName: Amuleto de Transmutación
 	}
@@ -1365,7 +1365,7 @@ Items: {
 	NecromancersRobe: {
 		Tooltip:
 			'''
-			El daño de los súbditos se incrementa en un 12%.
+			El daño de los súbditos aumenta un 12%.
 			Aumenta tu número máximo de súbditos
 			'''
 		DisplayName: Túnica del Nigromante
@@ -1374,7 +1374,7 @@ Items: {
 	NecromancersHood: {
 		Tooltip:
 			'''
-			El daño de los súbditos se incrementa en un 10%.
+			El daño de los súbditos aumenta un 10%.
 			Aumenta tu número máximo de súbditos
 			'''
 		DisplayName: Capucha del Nigromante
@@ -1383,9 +1383,9 @@ Items: {
 	NecromancersRing: {
 		Tooltip:
 			'''
-			Aumenta en 1 el número máximo de súbditos y el daño de los súbditos en un 7%
-			Obtienes más maná máximo, regeneración de maná 
-			y daño de súbditos por cada lápida cercana.
+			Aumenta el número máximo de súbditos en 1 y el daño de los súbditos en un 7%
+			Obtienes más maná máximo, regeneración de maná y
+			daño de súbditos por cada lápida cercana.
 			'''
 		DisplayName: Anillo del Nigromante
 	}
@@ -1399,8 +1399,8 @@ Items: {
 		DisplayName: Escudo Orcish
 		Tooltip:
 			'''
-			Aumenta el daño de lanzamiento un 11%
-			Cuanta menos vida tengas, mayor será tu daño y crítico con lanzamientos
+			Daño de lanzamiento aumentado en un 11%
+			Cuanta menos vida tengas, mayor será tu daño de lanzamiento y crítico
 			'''
 	}
 
@@ -1975,7 +1975,7 @@ Items: {
 	}
 
 	DwarvenBattleAxe: {
-		DisplayName: Hacha de Batalla Dwarven
+		DisplayName: Hacha de Batalla Élfica
 		Tooltip: ""
 	}
 
@@ -3094,7 +3094,7 @@ NPCs: {
 	BoneHand.DisplayName: Mano de Hueso
 
 	DwarfBlacksmith: {
-		DisplayName: Herrero Dwarven
+		DisplayName: Herrero Élfico
 
 		Name: {
 			Rizo: Gimli
@@ -3117,8 +3117,8 @@ NPCs: {
 		}
 
 		Chat: {
-			Blacksmith_1: "{0}, apuesto a que esos sucios goblins también te sacan de quicio, ¿verdad? Bueno, tengo una solución para eso."
-			Blacksmith_3: Hay demasiados hocicos de goblin rondando por el pueblo… pero es un problema fácil de resolver, si me traes el plano, claro.
+			Blacksmith_1: "{0}, apuesto a que esos sucios duendes también te sacan de quicio, ¿verdad? Bueno, tengo una solución para eso."
+			Blacksmith_3: Hay demasiados hocicos de duende rondando por el pueblo… pero es un problema fácil de resolver, si me traes el plano, claro.
 			Blacksmith_5: La espada aún no está lista, vuelve más tarde.
 			Blacksmith_7: ¡Por mi martillo, llegas justo a tiempo! Tengo una oferta para ti.
 			Blacksmith_9: Ya es hora de que ese minotauro pierda uno de sus cuernos. ¿Has acabado con la bestia?
@@ -3520,7 +3520,7 @@ NPCs: {
 			TravelingVampireNQ_3: ¡Carpe Jugulum!
 			TravelingVampireNQ_2: ¿Quién te dijo que debía convertirme en guardián del pantano?
 			TravelingVampireNQ_1: Dime… ¿por qué la tortuga vive más que generaciones de hombres, por qué el elefante persiste hasta ver dinastías, y por qué el loro nunca muere, salvo por mordedura de un gato, un perro u otra desgracia?
-			// NoBloodMoon: It seems that now is not the time for this.
+			NoBloodMoon: Parece que ahora no es el momento para esto.
 		}
 
 		Census.SpawnCondition: Condiciones desconocidas
@@ -3571,7 +3571,7 @@ NPCs: {
 	}
 
 	Toad.DisplayName: Sapo
-	SkeletonDwarf.DisplayName: Esqueleto Dwarven
+	SkeletonDwarf.DisplayName: Esqueleto Élfico
 }
 
 Projectiles: {
@@ -4115,7 +4115,7 @@ QuestsSystem: {
 			Quest8Short: Elige de qué lado estás...
 			Quest7Short: Lleva placas de armadura al herrero
 			Quest6Short: Ayuda al herrero a crear un cuerno de batalla
-			Quest5Short: Consigue un arma poderosa contra los goblins
+			Quest5Short: Consigue un arma poderosa contra los duendes
 			Quest4Short: Ayuda al vagabundo a volver a casa
 			Quest3Short: Determina el destino de la piedra misteriosa
 			Quest2Short: Ayuda a la bruja a conseguir un tomo antiguo
@@ -4129,7 +4129,7 @@ QuestsSystem: {
 			Quest8Name: Sepulturero
 			Quest7Name: Armaduras del No Muerto
 			Quest6Name: A la Llamada del Cuerno
-			Quest5Name: El Asesino de Goblins
+			Quest5Name: El Asesino de Duendes
 			Quest4Name: Tesoro del Laberinto
 			Quest3Name: Misterio del Pantano
 			Quest2Name: Buscando los Secretos
@@ -4146,8 +4146,8 @@ QuestsSystem: {
 			SwampWitch_8: El cofre con la piedra está escondido en algún lugar del subsuelo. No debería ser difícil llegar hasta él, pero aun así necesitas leer el tomo para evitar lo que mató a todos los aventureros antes que tú. ¡Buena suerte!
 			SwampWitch_10: Tráeme la piedra, y serás recompensado.
 			SwampWitch_13: ¿¡Qué?! ¡Parece que me equivocaba contigo, granuja! No eres ningún héroe, ¡y me aseguraré de que pagues por esto!
-			Blacksmith_2: ¡Sabía que no eras un cobarde! Este es el trato. Hace un tiempo oí hablar de Glamdring: una espada de artesanía élfica que abre cráneos de goblin con una facilidad extraordinaria. Sé que {0} tiene un plano de esta arma. ¿Quieres fastidiarlos? Tráemelo y la forjaré para ti.
-			Blacksmith_3: Hay demasiados hocicos de goblin cerca de esta ciudad, pero es un problema solucionable… si me traes el plano, claro.
+			Blacksmith_2: ¡Sabía que no eras un cobarde! Este es el trato. Hace un tiempo oí hablar de Glamdring: una espada de artesanía élfica que abre cráneos de duende con una facilidad extraordinaria. Sé que {0} tiene un plano de esta arma. ¿Quieres fastidiarlos? Tráemelo y la forjaré para ti.
+			Blacksmith_3: Hay demasiados hocicos de duende cerca de esta ciudad, pero es un problema solucionable… si me traes el plano, claro.
 			Blacksmith_4: Genial, ahora puedo forjar la espada. Vuelve en un rato para recogerla.
 			Blacksmith_5: La espada aún no está lista, vuelve más tarde.
 			Blacksmith_6: ¡Sí, la he forjado! ¡Toma la espada y patea traseros en mi nombre!
@@ -4197,7 +4197,7 @@ QuestsSystem: {
 				'''
 			Alchemist_23: Genial, empezaré a cargar la piedra ahora mismo. Vuelve más tarde.
 			Alchemist_24: Sí, la piedra está lista. ¡Tómala y que te proteja!
-			// Alchemist_25: No, sadly, I'm not charge the stone, come back later
+			Alchemist_25: No, lamentablemente, todavía no tengo cargada la piedra, vuelve más tarde
 			BackToTitle: Volver a la página de título
 			TitleText:
 				'''
@@ -4221,13 +4221,13 @@ QuestsSystem: {
 			Quest4Stage2: Obtener recompensa
 			QuestDiary4: Y yo que pensaba que nada podría ser peor que perder la memoria solo para encontrarte en una ciudad desconocida, la reunión de hoy me demostró lo contrario. Buscando mineral bajo tierra, escuché un grito de ayuda. Tras los escombros encontré a un anciano que, por lo que parecía, llevaba viviendo allí un tiempo. Me dijo que la puerta más adelante en el pasillo era la entrada a un laberinto. En algún lugar dentro se encontraba una piedra mágica que podría ayudarle a volver a casa. Me dio una llave de dicha puerta. Ahora es momento de liberarle y de explorar los tesoros que guarda en su interior.
 			QuestDiary4_2: Logré recuperar la piedra del anciano. Resultó ser un dispositivo de teletransporte, llevando al propietario directamente a la ciudad imperial. El viejo me dijo que pasara por allí por si quería una recompensa por mis esfuerzos.
-			QuestDiary5: Resultó que los goblins eran un grupo duro; está claro que necesito algo más eficaz contra estas bestias. {0} me dijo que con el plano adecuado podría forjar un arma específicamente para ese propósito. Según sus palabras, el pergamino está en posesión de {1}, nuestro goblin inventor. Irónico.
+			QuestDiary5: Resultó que los duendes eran un grupo duro; está claro que necesito algo más eficaz contra estas bestias. {0} me dijo que con el plano adecuado podría forjar un arma específicamente para ese propósito. Según sus palabras, el pergamino está en posesión de {1}, nuestro duende inventor. Irónico.
 			Quest5Stage2: Espera la nueva espada
-			Quest5Stage1: Compra el plano de la espada al chapucero goblin
+			Quest5Stage1: Compra el plano de la espada al chapucero duende
 			Quest6Stage1: Lleva el cuerno de minotauro al herrero
 			QuestDiary6: Hoy volví a hablar con {0}; me habló de un laberinto bajo la ciudad, en cuyo interior se encuentra un Minotauro. Al herrero solo le interesa su cuerno, del que podría hacer un instrumento musical; por tanto, el resto del tesoro es mío. Debo tomarme un tiempo para prepararme antes de enfrentar a la bestia.
-			Quest7Stage1: Trae restos de armadura dwarven
-			QuestDiary7: Ahora que lo pienso, nunca conocí a un gnomo aparte de {0}. Su historia de una civilización de enanos que fue grande lo explica todo. Tal vez se apiade de sus camaradas caídos, pero su destino no es de mucha importancia para mí. Por otro lado, {0} está dispuesto a pagar por sus corazas, así que ahora debo asumir el papel de Cazador de No Muertos, si quiero algunas de esas monedas dwarven.
+			Quest7Stage1: Trae restos de armadura élfica
+			QuestDiary7: Ahora que lo pienso, nunca conocí a un gnomo aparte de {0}. Su historia de una civilización de enanos que fue grande lo explica todo. Tal vez se apiade de sus camaradas caídos, pero su destino no es de mucha importancia para mí. Por otro lado, {0} está dispuesto a pagar por sus corazas, así que ahora debo asumir el papel de Cazador de No Muertos, si quiero algunas de esas monedas élficas.
 			QuestDiary8: Anoche hablé con {0}, el sacerdote de este lugar. Obviamente, es más de lo que aparenta. Me dijo que recuperara restos de la tumba de un guerrero en algún lugar junto al océano, en el lado de la jungla, y que se los trajera para un ritual. La nigromancia está prohibida aquí, bajo pena de muerte, sin embargo, {0} me prometió un "arma de poder nunca visto" y me aseguró un final amargo si lo traicionaba. Ahora debo decidir, ¿revelo sus planes al cónsul o rompo la ley para obtener esa arma?
 			Quest8Stage1_2: Reporta al líder
 			Quest8Stage1_1: Excava la lápida
@@ -4299,7 +4299,7 @@ LevelsLocalization: {
 CoinSystem: {
 	CoinLocalization: {
 		CoinSystem: {
-			DwarvenCoin: Moneda Dwarven
+			DwarvenCoin: Moneda Élfica
 			Ocrea: Ocrea
 			ImperianHelmet: Yelmo Imperiano
 			Lorica: Lorica
@@ -4308,7 +4308,7 @@ CoinSystem: {
 			PoisonRecipe: está en un pantano
 			PanaceaRecipe: Aprender la receta de la Receta
 			PhilosopherStone: Completa las misiones del alquimista
-			// SoulScytheRecipe: Learn the recipe for Soul Scythe
+			SoulScytheRecipe: Aprender la receta de la Guadaña de Almas
 			Necromant: Nigromante
 		}
 	}
@@ -4370,8 +4370,8 @@ QUEST: {
 }
 
 Condition: {
-	// CompleteAlchemistQuests: Complete the alchemist's quests "{0}"
-	// CompleteBabaYagaQuests: Complete the Baba Yaga's quests "{0}"
-	// CompletePriestQuests: Complete the priest's quests "{0}"
-	// VictoryBeggar: Win the dice game against the beggar 3 times in a row
+	CompleteAlchemistQuests: Completa las misiones del alquimista "{0}"
+	CompleteBabaYagaQuests: Completa las misiones de Baba Yaga "{0}"
+	CompletePriestQuests: Completa las misiones del sacerdote "{0}"
+	VictoryBeggar: Gana el juego de dados contra el mendigo 3 veces seguidas
 }
